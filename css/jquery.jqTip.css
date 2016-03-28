@@ -1,0 +1,26 @@
+.jq-tip-dialog{
+    position: absolute;
+    background-color: rgb(92, 176, 223);
+    display: none;
+    border-radius: 4px;
+}
+.jq-tip-dialog h1{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 0 5px 5px;
+}
+.jq-tip-dialog .wrapper{
+    padding: 0 3px 3px 3px;
+}
+.jq-tip-dialog .wrapper>div{
+    background-color: rgb(246, 246, 246);
+}
+.jq-tip-dialog .wrapper>div .jq-tip-content{
+    padding: 5px;
+    margin: 0;
+    font-size: 14px;
+    overflow-y: auto;
+    word-wrap: break-word;
+}

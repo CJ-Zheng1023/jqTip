@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/jquery.jqTip.css" type="text/css"/>
+</head>
+<body>
+<div id="test1" style="margin: 100px 100px 100px 0;height: 300px;width: 200px;border: 1px solid #000;">
+</div>
+<div id="test2" style="margin: 100px 100px 100px 0;height: 300px;width: 200px;border: 1px solid #000;">
+</div>
+
+
+
+
+
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/jquery.jqTip.js"></script>
+<script>
+    $(function(){
+        $("#test1").jqTip({
+            title:"标题",
+            content:"内容打算发斯蒂芬的发<span style='color: red;'>123</span>送到发送到发打法adsfasdfasdfasdfasdfadfasdfasdfasdfasdfasdfasdfasdfadsfasdfasdfasdadfs打法发达地方阿斯蒂芬阿斯蒂芬阿道夫啊三防灯asdfafdaadfa",
+            height:300,
+            width:300
+        });
+        $("#test2").jqTip({
+            title:"标题",
+            content:"内容打算发斯蒂芬的发<span style='color: red;'>123</span>送到发送到发打法adsfasdfasdfasdfasdfadfasdfasdfasdfasdfasdfasdfasdfadsfasdfasdfasdadfs打法发达地方阿斯蒂芬阿斯蒂芬阿道夫啊三防灯asdfafdaadfa",
+            height:100,
+            width:300
+        });
+    })
+</script>
+</body>
+</html>
